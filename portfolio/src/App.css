@@ -54,3 +54,26 @@
     font-size: 1.5rem !important;
   }
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.language-switcher .button {
+  min-width: 3rem;
+}
+
+body {
+  padding-top: 4.5rem;
+}
