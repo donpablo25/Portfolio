@@ -14,6 +14,7 @@
 
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem; /* Ajuste cette valeur selon la hauteur de ta navbar (ex: 4.5rem ou 5rem) */
 }
 
 * {
@@ -92,9 +93,10 @@ button:focus-visible {
 }
 
 h2.title{
-  color: #000;
+  color: #dbdbdb;
 }
 
 p.texte{
-  color: #000;
+  color: #dbdbdb;
 }
+
